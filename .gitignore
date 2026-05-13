@@ -1,0 +1,4 @@
+*.pdf
+file_sizes_raw.txt
+__pycache__/
+*.pyc
