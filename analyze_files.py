@@ -8,7 +8,7 @@ from matplotlib.gridspec import GridSpec
 import os
 
 # ── Завантаження даних ──────────────────────────────────────────
-sizes = np.fromfile('/home/viktor/unix_labs/file_analyser/file_sizes_raw.txt',
+sizes = np.fromfile('/home/viktor/unix_labs/Lab1/file_sizes_raw.txt',
                     dtype=np.int64, sep='\n')
 total = len(sizes)
 print(f"Всього файлів: {total:,}")
